@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test;
 public class PageAvailabilityTest {
 
 
+    /**
+     * Проверяет доступность страницы
+     */
     @Test
     void checkPageAvailability() {
         RestAssured.baseURI = "https://lubart-miniatures.com/shop/page/7/";
