@@ -7,7 +7,7 @@ public class PageAvailabilityTest {
 
 
     /**
-     * Проверяет доступность страницы
+     * Проверяет доступность страницы по коду HTTP-ответа
      */
     @Test
     void checkPageAvailability() {
